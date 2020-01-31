@@ -1,0 +1,389 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "52bf4c62def22107dd5597531243ed80",
+    "packages": [
+        {
+            "name": "luracast/restler",
+            "version": "v3.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Luracast/Restler.git",
+                "reference": "aaa341e02be2305109abbd08c7e1b2a9f89cb0d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Luracast/Restler/zipball/aaa341e02be2305109abbd08c7e1b2a9f89cb0d9",
+                "reference": "aaa341e02be2305109abbd08c7e1b2a9f89cb0d9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "conflict": {
+                "restler/framework": "3.*"
+            },
+            "require-dev": {
+                "behat/behat": "2.5.*@stable",
+                "bshaffer/oauth2-server-php": "v1.0",
+                "guzzlehttp/guzzle": "3.8.1"
+            },
+            "suggest": {
+                "behat/behat": "Behaviour driven development testing framework (see require-dev for details)",
+                "bshaffer/oauth2-server-php": "If you want to use OAuth2 for authentication",
+                "guzzle/guzzle": "RESTful api HTTP client framework (see require-dev for details)",
+                "illuminate/view": "If you want to use laravel blade templates with Html format",
+                "mustache/mustache": "If you want to use mustache/handlebar templates with Html format",
+                "rodneyrehm/plist": "If you need Apple plist binary/xml format",
+                "symfony/yaml": "If you need YAML format",
+                "twig/twig": "If you want to use twig templates with Html format",
+                "zendframework/zendamf": "If you need AMF format"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "v3": "v3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Luracast\\Restler": "vendor/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Luracast",
+                    "email": "arul@luracast.com"
+                }
+            ],
+            "description": "Restler is a simple and effective multi-format Web API Server framework written in PHP. Just deal with your business logic in php, Restler will take care of the REST!",
+            "homepage": "http://luracast.com/products/restler/",
+            "keywords": [
+                "api",
+                "framework",
+                "rest",
+                "server"
+            ],
+            "time": "2019-05-23T03:29:24+00:00"
+        },
+        {
+            "name": "rcsi/connection-database",
+            "version": "3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/daemionfox/connection-database.git",
+                "reference": "d4aab46e71221aad07e0d48b9f76bea341bdebbe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/daemionfox/connection-database/get/d4aab46e71221aad07e0d48b9f76bea341bdebbe.zip",
+                "reference": "d4aab46e71221aad07e0d48b9f76bea341bdebbe",
+                "shasum": ""
+            },
+            "require": {
+                "rcsi/filesystem-config": "~3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.7@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RCSI\\": "src/",
+                    "Tests\\": "tests/",
+                    "API\\": "api/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Matt Sowers",
+                    "email": "matt@rcsipublishing.com"
+                }
+            ],
+            "description": "Database connector",
+            "homepage": "https://bitbucket.org/daemionfox/connection-database",
+            "time": "2018-01-22T03:21:52+00:00"
+        },
+        {
+            "name": "rcsi/filesystem-config",
+            "version": "3.6",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/daemionfox/rcsi-filesystem-config.git",
+                "reference": "59c41f03826df53ed7080ae470358d2b353417f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/daemionfox/rcsi-filesystem-config/get/59c41f03826df53ed7080ae470358d2b353417f5.zip",
+                "reference": "59c41f03826df53ed7080ae470358d2b353417f5",
+                "shasum": ""
+            },
+            "require": {
+                "rcsi/system-exceptions": "~2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.7.x-dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RCSI\\": "src/",
+                    "Tests\\": "tests",
+                    "API\\": "api"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Sowers",
+                    "email": "matt@rcsipublishing.com"
+                }
+            ],
+            "description": "General Config Library",
+            "homepage": "https://bitbucket.org/daemionfox/rcsi-filesystem-config",
+            "time": "2017-09-23T23:01:30+00:00"
+        },
+        {
+            "name": "rcsi/system-exceptions",
+            "version": "2.1",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/daemionfox/rcsi-system-exceptions.git",
+                "reference": "eaa27517c0ce691a1e15e69962b1d03940508b7f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/daemionfox/rcsi-system-exceptions/get/eaa27517c0ce691a1e15e69962b1d03940508b7f.zip",
+                "reference": "eaa27517c0ce691a1e15e69962b1d03940508b7f",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.7.x-dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RCSI\\": "src",
+                    "Tests\\": "tests",
+                    "API\\": "api"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Sowers",
+                    "email": "matt@rcsipublishing.com"
+                }
+            ],
+            "description": "General Exception Library",
+            "time": "2015-12-06T19:54:38+00:00"
+        },
+        {
+            "name": "symfony/polyfill-ctype",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "fbdeaec0df06cf3d51c93de80c7eb76e271f5a38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/fbdeaec0df06cf3d51c93de80c7eb76e271f5a38",
+                "reference": "fbdeaec0df06cf3d51c93de80c7eb76e271f5a38",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.14-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "time": "2020-01-13T11:15:53+00:00"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "34094cfa9abe1f0f14f48f490772db7a775559f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/34094cfa9abe1f0f14f48f490772db7a775559f2",
+                "reference": "34094cfa9abe1f0f14f48f490772db7a775559f2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.14-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2020-01-13T11:15:53+00:00"
+        },
+        {
+            "name": "twig/twig",
+            "version": "2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "e52bcf67cfc047c3aeecb67b6db462165ae3d7a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/e52bcf67cfc047c3aeecb67b6db462165ae3d7a6",
+                "reference": "e52bcf67cfc047c3aeecb67b6db462165ae3d7a6",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "symfony/polyfill-ctype": "^1.8",
+                "symfony/polyfill-mbstring": "^1.3"
+            },
+            "require-dev": {
+                "psr/container": "^1.0",
+                "symfony/phpunit-bridge": "^4.4|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.12-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                },
+                "psr-4": {
+                    "Twig\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Twig Team",
+                    "role": "Contributors"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "https://twig.symfony.com",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2020-01-13T08:20:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "platform-dev": []
+}

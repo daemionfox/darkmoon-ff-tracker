@@ -1,0 +1,26 @@
+{
+  "name": "daemionfox/darkmoon-ff-tracker",
+  "description": "Darkmoon's Final Fantasy Speedrun Tracker",
+  "license": "GPL3",
+  "authors": [
+    {
+      "name": "Matt Sowers",
+      "email": "matt@rcsipublishing.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "luracast/restler": "~3",
+    "rcsi/connection-database": "~3",
+    "rcsi/filesystem-config": "~3",
+    "rcsi/system-exceptions": "~2",
+    "twig/twig": "~2",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "daemionfox\\": "src/"
+    }
+  }
+}
