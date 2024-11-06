@@ -14,7 +14,7 @@
     "rcsi/connection-database": "~3",
     "rcsi/filesystem-config": "~3",
     "rcsi/system-exceptions": "~2",
-    "twig/twig": "~2",
+    "twig/twig": "~3",
     "ext-curl": "*",
     "ext-json": "*"
   },
